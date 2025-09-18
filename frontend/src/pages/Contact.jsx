@@ -35,9 +35,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center px-4 py-16 relative">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center px-4 py-16 relative"
+    >
       
-      {/* Background Glow */}
+      
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full filter blur-[150px] opacity-30"></div>
         <div className="absolute bottom-20 right-10 w-72 h-72 bg-purple-500 rounded-full filter blur-[150px] opacity-30"></div>
@@ -201,3 +202,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+

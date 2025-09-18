@@ -8,15 +8,16 @@ const Footer = () => {
       style={{
         backgroundImage: `url("https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
       }}
+      aria-hidden="true"
     ></div>
-    <div className="absolute top-0 left-1/4 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl"></div>
-    <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl"></div>
+    <div className="hidden sm:block absolute top-0 left-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-indigo-600/10 rounded-full blur-3xl"></div>
+    <div className="hidden sm:block absolute bottom-0 right-1/4 w-64 sm:w-80 h-64 sm:h-80 bg-purple-600/10 rounded-full blur-3xl"></div>
 
-    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-12">
         <div className="space-y-6">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-black to-purple-600 rounded-xl flex items-center justify-center text-white text-sm">
+            <div className="w-10 h-10 bg-gradient-to-r from-black to-gray-600 rounded-xl flex items-center justify-center text-white text-sm">
               OH
             </div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
@@ -114,13 +115,13 @@ const Footer = () => {
             <h5 className="text-sm font-semibold text-white mb-2">
               Stay Updated
             </h5>
-            <div className="flex space-x-2">
+            <div className="flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0">
               <input
                 type="email"
                 placeholder="Enter your email"
                 className="flex-1 px-3 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               />
-              <button className="px-4 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg text-white font-medium hover:shadow-lg hover:shadow-indigo-500/25 transition-all duration-300 hover:scale-105">
+              <button className="w-full sm:w-auto px-4 py-2 bg-gradient-to-r from-black to-gray-600 rounded-lg text-white font-medium hover:shadow-lg hover:shadow-indigo-500/25 transition-all duration-300 hover:scale-105">
                 Subscribe
               </button>
             </div>
@@ -128,10 +129,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-16 pt-8 border-t border-white/10">
+      <div className="mt-12 sm:mt-16 pt-8 border-t border-white/10">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="flex items-center space-x-6 text-gray-400 text-sm">
-            <p>&copy; 2024 OneHealth. All rights reserved.</p>
+          <div className="flex items-center space-x-6 text-gray-400 text-sm text-center md:text-left">
+            <p className="w-full md:w-auto">&copy; 2024 OneHealth. All rights reserved.</p>
             <span className="hidden md:block">•</span>
             <a
               href="/privacy"
