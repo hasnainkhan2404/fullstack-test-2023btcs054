@@ -48,7 +48,6 @@ const Home = () => {
             </button>
           </div>
 
-          {/* Stats */}
           <div className="absolute bottom-8 w-full px-4">
             <div className="flex flex-row  justify-center items-center sm:space-x-16 space-y-6 sm:space-y-0 text-white text-center">
               <div>
@@ -68,11 +67,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* second section */}
-
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Header */}
           <div className="mb-14 text-center">
             <h2 className="text-4xl text-center font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">
               We Love To Help You Achieve Your Fitness Goals.
@@ -81,7 +77,6 @@ const Home = () => {
               Using technology to make HealthCare simpler, smarter and more rewarding.
             </p>
 
-            {/* CTA Buttons */}
             <div className="flex flex-col justify-center md:flex-row gap-5 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
               <a
                 href="#"
@@ -105,22 +100,7 @@ const Home = () => {
               <div className="bg-gray-800 rounded-2xl flex justify-between flex-row flex-wrap">
                 <div className="p-5 xl:p-8 w-full md:w-1/2">
                   <div className="block">
-
-                    <svg
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z"
-                        stroke="white"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    <div className="w-8 h-8 rounded-full bg-white/10 text-white flex items-center justify-center text-xs">★</div>
                   </div>
                   <h3 className="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
                     Accomplish tasks swiftly with online tools.
@@ -131,21 +111,7 @@ const Home = () => {
                   </p>
                   <button className="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
                     View More
-                    <svg
-                      width="6"
-                      height="10"
-                      viewBox="0 0 6 10"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1"
-                        stroke="white"
-                        strokeWidth="1.6"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    <span>→</span>
                   </button>
                 </div>
 
@@ -159,24 +125,10 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Second Card */}
             <div className="relative w-full h-auto">
               <div className="bg-indigo-500 rounded-2xl p-5 xl:p-8 h-full">
                 <div className="block">
-                  <svg
-                    width="30"
-                    height="30"
-                    viewBox="0 0 30 30"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M24.6429 11.4286C24.6429 14.3872 20.2457 16.7857 14.8214 16.7857C9.3972 16.7857 5 14.3872 5 11.4286M24.6429 16.7857C24.6429 19.7444 20.2457 22.1429 14.8214 22.1429C9.3972 22.1429 5 19.7444 5 16.7857M24.6429 22.1429C24.6429 25.1015 20.2457 27.5 14.8214 27.5C9.3972 27.5 5 25.1015 5 22.1429M24.6429 6.96429C24.6429 9.42984 20.2457 11.4286 14.8214 11.4286C9.3972 11.4286 5 9.42984 5 6.96429C5 4.49873 9.3972 2.5 14.8214 2.5C20.2457 2.5 24.6429 4.49873 24.6429 6.96429Z"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                    />
-                  </svg>
+                  <div className="w-8 h-8 rounded-full bg-white/20 text-white flex items-center justify-center text-xs">◆</div>
                 </div>
                 <h3 className="py-5 text-white text-lg font-bold xl:text-xl">
                   Improved technology yields greater value
@@ -186,43 +138,15 @@ const Home = () => {
                 </p>
                 <button className="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
                   View More
-                  <svg
-                    width="6"
-                    height="10"
-                    viewBox="0 0 6 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1"
-                      stroke="white"
-                      strokeWidth="1.6"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <span>→</span>
                 </button>
               </div>
             </div>
 
-            {/* Third Card */}
             <div className="relative w-full h-auto">
               <div className="bg-violet-500 rounded-2xl p-5 xl:p-8 h-full">
                 <div className="block">
-                  <svg
-                    width="30"
-                    height="30"
-                    viewBox="0 0 30 30"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M26.7301 15.661C26.7301 22.1995 21.306 27.5 14.6151 27.5C7.9241 27.5 2.5 22.1995 2.5 15.661C2.5 9.1225 7.9241 3.822 14.6151 3.822M18.1313 10.1507L18.1313 4.85383C18.1313 3.22503 19.6455 2.00299 21.1519 2.70013C23.7608 3.90751 26.6177 6.25557 27.456 10.2563C27.7542 11.6798 26.4931 12.8563 25.0064 12.8368L20.7873 12.7814C19.3147 12.762 18.1313 11.5899 18.1313 10.1507Z"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                    />
-                  </svg>
+                  <div className="w-8 h-8 rounded-full bg-white/20 text-white flex items-center justify-center text-xs">◉</div>
                 </div>
                 <h3 className="py-5 text-white text-lg font-bold xl:text-xl">
                   Build wealth with insurance planning
@@ -233,21 +157,7 @@ const Home = () => {
                 </p>
                 <button className="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
                   View More
-                  <svg
-                    width="6"
-                    height="10"
-                    viewBox="0 0 6 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1"
-                      stroke="white"
-                      strokeWidth="1.6"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <span>→</span>
                 </button>
               </div>
             </div>
@@ -255,71 +165,69 @@ const Home = () => {
         </div>
       </section>
 
-      {/* third section */}
-
-      <section class="py-24 relative xl:mr-0 lg:mr-5 mr-0">
-        <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-          <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
-            <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
-              <div class="w-full flex-col justify-center items-start gap-8 flex">
-                <div class="flex-col justify-start lg:items-start items-center gap-4 flex">
-                  <h6 class="text-gray-400 text-base font-normal leading-relaxed">About Us</h6>
-                  <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+      <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
+        <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+          <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
+            <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+              <div className="w-full flex-col justify-center items-start gap-8 flex">
+                <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
+                  <h6 className="text-gray-400 text-base font-normal leading-relaxed">About Us</h6>
+                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <h2
-                      class="text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                      className="text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                       The Tale of Our Achievement Story</h2>
                     <p
-                      class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                       Our achievement story is a testament to teamwork and perseverance. Together, we've
                       overcome challenges, celebrated victories, and created a narrative of progress and
                       success.</p>
                   </div>
                 </div>
-                <div class="w-full flex-col justify-center items-start gap-6 flex">
-                  <div class="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                <div className="w-full flex-col justify-center items-start gap-6 flex">
+                  <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                     <div
-                      class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">33+ Years</h4>
-                      <p class="text-gray-500 text-base font-normal leading-relaxed">Influencing Digital
+                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">33+ Years</h4>
+                      <p className="text-gray-500 text-base font-normal leading-relaxed">Influencing Digital
                         Landscapes Together</p>
                     </div>
                     <div
-                      class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">125+ Projects
+                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">125+ Projects
                       </h4>
-                      <p class="text-gray-500 text-base font-normal leading-relaxed">Excellence Achieved
+                      <p className="text-gray-500 text-base font-normal leading-relaxed">Excellence Achieved
                         Through Success</p>
                     </div>
                   </div>
-                  <div class="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                  <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                     <div
-                      class="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">26+ Awards</h4>
-                      <p class="text-gray-500 text-base font-normal leading-relaxed">Our Dedication to
+                      className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">26+ Awards</h4>
+                      <p className="text-gray-500 text-base font-normal leading-relaxed">Our Dedication to
                         Innovation Wins Understanding</p>
                     </div>
                     <div
-                      class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">99% Happy
+                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">99% Happy
                         Clients</h4>
-                      <p class="text-gray-500 text-base font-normal leading-relaxed">Mirrors our Focus on
+                      <p className="text-gray-500 text-base font-normal leading-relaxed">Mirrors our Focus on
                         Client Satisfaction.</p>
                     </div>
                   </div>
                 </div>
               </div>
               <button
-                class="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
+                className="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
                 <span
-                  class="px-1.5 text-black text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">Read
+                  className="px-1.5 text-black text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">Read
                   More</span>
                   <FaLongArrowAltRight className='group-hover:translate-x-0.5 transition-all duration-700 ease-in-out' />
               </button>
             </div>
-            <div class="w-full lg:justify-start justify-center items-start flex">
+            <div className="w-full lg:justify-start justify-center items-start flex">
               <div
-                class="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
-                <img class="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
+                className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
+                <img className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
                   src="https://images.unsplash.com/photo-1584467735871-8e85353a8413?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="about Us image" />
               </div>
             </div>

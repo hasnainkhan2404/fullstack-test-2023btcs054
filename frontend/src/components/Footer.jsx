@@ -16,14 +16,8 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         <div className="space-y-6">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-black to-purple-600 rounded-xl flex items-center justify-center">
-              <svg
-                className="w-6 h-6 text-white"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" />
-              </svg>
+            <div className="w-10 h-10 bg-gradient-to-r from-black to-purple-600 rounded-xl flex items-center justify-center text-white text-sm">
+              OH
             </div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
               OneHealth
@@ -40,7 +34,7 @@ const Footer = () => {
                 href="#"
                 className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-indigo-500/20 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-indigo-500/25"
               >
-                <div className="w-5 h-5 bg-gray-300 rounded"></div>
+                <div className="text-gray-300 text-sm capitalize">{social}</div>
               </a>
             ))}
           </div>
@@ -155,7 +149,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-2 text-sm text-gray-400">
             <span>Made with</span>
-            <span className="text-red-400 animate-pulse">❤️</span>
+            <span className="text-red-400">❤️</span>
             <span>by OneHealth Team</span>
           </div>
         </div>
